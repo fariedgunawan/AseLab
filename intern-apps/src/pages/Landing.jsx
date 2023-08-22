@@ -19,7 +19,7 @@ const Landing = () => {
       {/*container*/}
       <div className="landing-container flex items-center justify-center mt-[5rem] sm:gap-[13rem] sm:mx-[30px] sm:mt-[3rem]">
         {/*Caption*/}
-        <div className="landing-caption w-[270px] text-center sm:w-[370px]">
+        <div className="landing-caption w-[270px] text-center sm:w-[379px]">
           <h2 className="text-white font-poppins font-bold text-3xl sm:text-[45px]">Selamat Datang</h2>
           <h3 className="text-white font-poppins font-normal mt-4 sm:text-justify sm:mt-[30px] sm:text-lg">
             Web Penyedia Layanan Ketersediaan Barang Gudang Pabrik, Jelajahi Web Kami dan Dapatkan Aset Bisnis Anda, Kami Siap Memajukan Bisnis Anda Serta Memakmurkan Perekonomian Indonesia.

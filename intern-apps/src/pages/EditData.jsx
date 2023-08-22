@@ -2,24 +2,13 @@ import React from "react";
 import "./EditData.css";
 import userimg from "../assets/user.png";
 import Delete from "../assets/delete.png";
+import Nav from "../components/nav";
 
 const EditData = () => {
   return (
     <div id="edit-body">
       {/*Header */}
-      <div className="flex justify-between p-[30px] items-center">
-        <h2 className="text-white font-poppins font-semibold text-2xl sm:text-3xl">Industrial</h2>
-        <div className="dropdown dropdown-end">
-          <img src={userimg} tabIndex={0} className="w-[40px] cursor-pointer sm:w-[45px]" />
-          <ul tabIndex={0} className="dropdown-content z-[1] menu p-4 shadow bg-white rounded-box w-52 mt-4 text-center">
-            <h2 className="text-black font-poppins font-bold text-md">Nama</h2>
-            <h2 className="text-black font-poppins font-semibold text-sm mt-4">Status: Admin</h2>
-            <h2 className="text-black font-poppins font-semibold text-sm mt-4">081389214045</h2>
-            <button className="bg-red-700 text-white mx-8 p-1 rounded-md mt-3 text-semibold">Logout</button>
-          </ul>
-        </div>
-        {/*end dropdown */}
-      </div>
+      <Nav />
       {/*End Header */}
 
       <div className="edit-container flex justify-center mt-[3rem] sm:mt-[4rem]">
