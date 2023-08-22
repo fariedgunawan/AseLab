@@ -7,6 +7,8 @@ import RegisterManager from "./pages/RegisterManager";
 import LoginAdmin from "./pages/LoginAdmin";
 import EditData from "./pages/EditData";
 import AddData from "./pages/AddData";
+import Manager from "./pages/Manager";
+import Admin from "./pages/Admin";
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/LoginAdmin" element={<LoginAdmin />} />
         <Route path="/EditData" element={<EditData />} />
         <Route path="/AddData" element={<AddData />} />
+        <Route path="/homeManager" element={<Manager />} />
+        <Route path="/homeAdmin" element={<Admin />} />
       </Routes>
     </Router>
   );
